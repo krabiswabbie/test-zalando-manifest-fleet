@@ -3,7 +3,7 @@ kind: postgresql
 metadata:
   name: fleet-cluster
 spec:
-  teamId: "fleet"
+  teamId: "acid"
   volume:
     size: 1Gi
   numberOfInstances: 2
