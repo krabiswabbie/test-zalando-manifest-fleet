@@ -1,7 +1,8 @@
 apiVersion: "acid.zalan.do/v1"
 kind: postgresql
 metadata:
-  name: fleet-cluster
+  name: postgres-cluster
+  namespace: postgres-cluster
 spec:
   teamId: "acid"
   volume:
